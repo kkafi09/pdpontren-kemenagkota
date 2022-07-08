@@ -1,10 +1,17 @@
-import './App.css';
+import "./App.css";
+import DataSection from "./components/DataSection";
+import HeaderSection from "./components/HeaderSection";
 
 function App() {
   return (
-    <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>    
+    <>
+      <div className="font-inter bg:white">
+        <div className="max-w-5xl mx-auto w-11/12">
+          <HeaderSection />
+          <DataSection />
+        </div>
+      </div>
+    </>
   );
 }
 
