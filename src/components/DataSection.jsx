@@ -1,4 +1,5 @@
 import React from "react";
+import { monitoring } from "../data/Monitoring";
 import { bantuan, emis, permohonanIzin } from "../data/PdPontren";
 import { verval } from "../data/Verval";
 import DataItem from "./DataItem";
@@ -57,6 +58,18 @@ function DataSection() {
       </SectionTitle>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 py-3">
         {verval.map((data) => (
+          <DataItem
+            key={data.title}
+            title={data.title}
+            imgUrl={data.imgUrl}
+            link={data.link}
+            description={data.description}
+          />
+        ))}
+      </div>
+      <SectionTitle>5. Monitoring</SectionTitle>
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 py-3">
+        {monitoring.map((data) => (
           <DataItem
             key={data.title}
             title={data.title}
