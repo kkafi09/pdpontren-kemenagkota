@@ -7,7 +7,7 @@ function DataItem({ title, imgUrl, description, link }) {
         <img
           src={imgUrl}
           alt={title}
-          className="w-full h-36 md:h-48 object-cover p-2"
+          className="w-full h-36 md:h-48 object-contain p-2"
         />
         <div className="text-gray-600 p-4 w-full">
           <h3 className="text-lg md:text-xl mb-1 font-semibold">{title}</h3>

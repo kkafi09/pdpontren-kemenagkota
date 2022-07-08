@@ -8,10 +8,10 @@ function DataSection() {
   return (
     <>
       <SectionTitle>
-        Aplikasi EMIS WAJIB untuk semua Lembaga Keagamaan Islam (Pondok
+        1. Aplikasi EMIS WAJIB untuk semua Lembaga Keagamaan Islam (Pondok
         Pesantren, MDT, LPQ, SPM, PDF, PK-PPS)
       </SectionTitle>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 py-3">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-5 py-3">
         {emis.map((data) => (
           <DataItem
             key={data.title}
@@ -23,9 +23,10 @@ function DataSection() {
         ))}
       </div>
       <SectionTitle>
-        Aplikasi untuk permohonan Izin operasional baik BARU maupun Perpanjangan
+        2. Aplikasi untuk permohonan Izin operasional baik BARU maupun
+        Perpanjangan
       </SectionTitle>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 py-3">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-5 py-3">
         {permohonanIzin.map((data) => (
           <DataItem
             key={data.title}
@@ -37,10 +38,10 @@ function DataSection() {
         ))}
       </div>
       <SectionTitle>
-        Aplikasi Bantuan-bantuan Lembaga Keagamaan Islam (Pondok Pesantren, MDT,
-        LPQ, SPM, PDF, PK-PPS)
+        3. Aplikasi Bantuan-bantuan Lembaga Keagamaan Islam (Pondok Pesantren,
+        MDT, LPQ, SPM, PDF, PK-PPS)
       </SectionTitle>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 py-3">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-5 py-3">
         {bantuan.map((data) => (
           <DataItem
             key={data.title}
@@ -52,9 +53,9 @@ function DataSection() {
         ))}
       </div>
       <SectionTitle>
-        Aplikasi pendukung Satuan Pendidikan SPM, PDF dan PK-PPS
+        4. Aplikasi pendukung Satuan Pendidikan SPM, PDF dan PK-PPS
       </SectionTitle>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 py-3">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 py-3">
         {verval.map((data) => (
           <DataItem
             key={data.title}
