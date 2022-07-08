@@ -5,7 +5,7 @@ import HeaderSection from "./components/HeaderSection";
 function App() {
   return (
     <>
-      <div className="font-inter bg:white">
+      <div className="font-inter bg-slate-100">
         <div className="max-w-5xl mx-auto w-11/12">
           <HeaderSection />
           <DataSection />
