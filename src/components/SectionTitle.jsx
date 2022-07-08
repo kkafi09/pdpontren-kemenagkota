@@ -2,7 +2,10 @@ import React from "react";
 
 function SectionTitle({ id, children }) {
   return (
-    <h1 id={id && id} className="text-xl font-bold mb-5 text-green-600 pt-4">
+    <h1
+      id={id && id}
+      className="text-lg md:text-xl font-bold mb-5 text-green-600 pt-4"
+    >
       {children}
     </h1>
   );

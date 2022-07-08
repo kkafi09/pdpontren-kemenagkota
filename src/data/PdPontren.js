@@ -7,7 +7,7 @@ export const emis = [
     link: "http://emispendis.kemenag.go.id/pdpontrenv2/Login",
   },
   {
-    title: "B. Daftar Operator EMIS",
+    title: "B. Pendaftaran dan pergantian Operator EMIS",
     description: `Bagi lembaga yang belum daftar Operator EMIS, daftar lebih dulu dengan klik kotak ini`,
     imgUrl:
       "https://github.com/kkafi09/pdpontren-kemenagkota/blob/main/src/images/operator-emis.png?raw=true",

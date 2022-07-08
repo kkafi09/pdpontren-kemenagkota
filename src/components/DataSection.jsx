@@ -68,7 +68,7 @@ function DataSection() {
         ))}
       </div>
       <SectionTitle>5. Monitoring</SectionTitle>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 py-3">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 py-3">
         {monitoring.map((data) => (
           <DataItem
             key={data.title}

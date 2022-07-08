@@ -1,5 +1,6 @@
 import "./App.css";
 import DataSection from "./components/DataSection";
+import Footer from "./components/Footer";
 import HeaderSection from "./components/HeaderSection";
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
         <div className="max-w-5xl mx-auto w-11/12">
           <HeaderSection />
           <DataSection />
+          <Footer />
         </div>
       </div>
     </>
