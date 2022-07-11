@@ -1,4 +1,5 @@
 import React from "react";
+import { BsWhatsapp } from "react-icons/bs";
 
 function HeaderSection() {
   return (
@@ -10,6 +11,12 @@ function HeaderSection() {
         Ini adalah semua link aplikasi/digitalisasi seksi PD Pontren Kemenag
         Kota Kediri
       </p>
+      <a
+        href="https://wa.me/message/SQYG3LZPBPMKG1"
+        className="flex flex-row py-2 px-4 bg-green-500 items-center mt-5 rounded"
+      >
+        <BsWhatsapp /> <span className="px-2">Contact admin</span>
+      </a>
     </div>
   );
 }
