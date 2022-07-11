@@ -67,7 +67,7 @@ function DataSection() {
           />
         ))}
       </div>
-      <SectionTitle>5. Monitoring</SectionTitle>
+      <SectionTitle>5. Peraturan, Juknis, dan Monitoring</SectionTitle>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 py-3">
         {monitoring.map((data) => (
           <DataItem
