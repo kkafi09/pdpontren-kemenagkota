@@ -31,7 +31,7 @@ export const verval = [
     link: "https://bioanpaket.kemdikbud.go.id/",
   },
   {
-    title: "C. ANBK Nasional",
+    title: "E. ANBK Nasional",
     description:
       "Asesmen Nasional Program evaluasi yang diselenggarakan oleh Kemendikbud untuk meningkatkan mutu pendidikan dengan memotret input, proses dan output pembelajaran di seluruh satuan pendidikan",
     imgUrl:
@@ -39,10 +39,18 @@ export const verval = [
     link: "https://anbk.kemdikbud.go.id/",
   },
   {
-    title: "D. Cek NISN",
+    title: "F. Cek NISN",
     description: "Aplikasi digunakan untuk mengecek NISN",
     imgUrl:
       "https://github.com/kkafi09/pdpontren-kemenagkota/blob/main/src/images/cek-nisn.png?raw=true",
     link: "https://nisn.data.kemdikbud.go.id/",
+  },
+  {
+    title: "G. Daftar Anggota (Akun VervalPD)",
+    description:
+      "Link untuk pendaftaran anggota akun Verifikasi dan Validasi PD",
+    imgUrl:
+      "https://github.com/kkafi09/pdpontren-kemenagkota/blob/main/src/images/daftar-anggota-verval.png?raw=true",
+    link: "https://sdm.data.kemdikbud.go.id/sys/login?appkey=8CB4A609-CE3C-41E8-B1DB-41589CF96AE5",
   },
 ];
