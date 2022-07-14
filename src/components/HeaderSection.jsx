@@ -15,7 +15,7 @@ function HeaderSection() {
         target="_blank"
         rel="noopener noreferrer"
         href="https://wa.me/message/SQYG3LZPBPMKG1"
-        className="flex flex-row py-2 px-4 bg-green-400 items-center mt-5 rounded shadow-md shadow-green-300"
+        className="flex flex-row py-2 px-4 bg-green-400 items-center mt-5 rounded shadow-md shadow-green-400"
       >
         <BsWhatsapp /> <span className="px-2">Contact admin</span>
       </a>

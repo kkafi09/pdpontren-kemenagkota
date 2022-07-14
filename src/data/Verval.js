@@ -45,12 +45,4 @@ export const verval = [
       "https://github.com/kkafi09/pdpontren-kemenagkota/blob/main/src/images/cek-nisn.png?raw=true",
     link: "https://nisn.data.kemdikbud.go.id/",
   },
-  {
-    title: "G. Daftar Anggota (Akun VervalPD)",
-    description:
-      "Link untuk pendaftaran anggota akun Verifikasi dan Validasi PD",
-    imgUrl:
-      "https://github.com/kkafi09/pdpontren-kemenagkota/blob/main/src/images/daftar-anggota-verval.png?raw=true",
-    link: "https://sdm.data.kemdikbud.go.id/sys/login?appkey=8CB4A609-CE3C-41E8-B1DB-41589CF96AE5",
-  },
 ];
