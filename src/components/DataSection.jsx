@@ -93,7 +93,7 @@ function DataSection() {
           />
         ))}
       </div>
-      <div className="mt-10 text-center w-3/4">
+      <div className="mt-10 text-center w-3/4 flex flex-col justify-center mx-auto">
         <p>
           Pengunjung Website Hari ini {new Date().getDate()}/
           {new Date().getMonth()}/{new Date().getFullYear()}
