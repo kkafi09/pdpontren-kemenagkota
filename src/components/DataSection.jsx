@@ -1,11 +1,25 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { monitoring } from "../data/Monitoring";
 import { bantuan, emis, permohonanIzin } from "../data/PdPontren";
 import { verval } from "../data/Verval";
 import DataItem from "./DataItem";
 import SectionTitle from "./SectionTitle";
+import countapi from "countapi-js";
 
 function DataSection() {
+  const [visitor, setVisitor] = useState(0);
+
+  useEffect(() => {
+    countapi
+      .hit(
+        `pdpontren-kemenagkota.vercel.app`,
+        `tanggal${new Date().getDate()}bulan${new Date().getMonth() + 1}`
+      )
+      .then((response) => {
+        setVisitor(response.value);
+      });
+  }, []);
+
   return (
     <>
       <SectionTitle>
@@ -78,6 +92,13 @@ function DataSection() {
             description={data.description}
           />
         ))}
+      </div>
+      <div className="mt-10 text-center w-3/4">
+        <p>
+          Pengunjung Website Hari ini {new Date().getDate()}/
+          {new Date().getMonth()}/{new Date().getFullYear()}
+        </p>
+        <h1 className="text-2xl mt-2">{visitor}</h1>
       </div>
     </>
   );
