@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { BsWhatsapp } from "react-icons/bs";
 import countapi from "countapi-js";
-import axios from "axios";
 
 function HeaderSection() {
   const [visitor, setVisitor] = useState(0);
