@@ -3,7 +3,7 @@ import { BsWhatsapp } from "react-icons/bs";
 
 function HeaderSection() {
   return (
-    <div className="flex flex-col items-center justify-center py-20">
+    <div className="flex flex-col items-center justify-center pt-20 pb-10">
       <h1 className="text-4xl lg:text-5xl font-bold text-green-600 text-center">
         PD PONTREN KEMENAG KOTA KEDIRI
       </h1>

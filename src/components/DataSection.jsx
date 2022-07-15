@@ -96,7 +96,7 @@ function DataSection() {
       <div className="mt-10 text-center w-3/4 flex flex-col justify-center mx-auto">
         <p>
           Pengunjung Website Hari ini {new Date().getDate()}/
-          {new Date().getMonth()}/{new Date().getFullYear()}
+          {new Date().getMonth() + 1}/{new Date().getFullYear()}
         </p>
         <h1 className="text-2xl mt-2">{visitor}</h1>
       </div>
