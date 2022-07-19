@@ -5,18 +5,33 @@ import { verval } from "../data/Verval";
 import DataItem from "./DataItem";
 import SectionTitle from "./SectionTitle";
 import countapi from "countapi-js";
+import Visitor from "./Visitor";
 
 function DataSection() {
-  const [visitor, setVisitor] = useState(0);
-
+  const [visitorDay, setVisitorDay] = useState(0);
+  const [visitorMonth, setVisitorMonth] = useState(0);
+  const [visitorYear, setVisitorYear] = useState(0);
   useEffect(() => {
     countapi
       .hit(
         `pdpontren-kemenagkota.vercel.app`,
-        `tanggal${new Date().getDate()}bulan${new Date().getMonth() + 1}`
+        `tgl${new Date().getDate()}bln${new Date().getMonth() + 1}`
       )
       .then((response) => {
-        setVisitor(response.value);
+        setVisitorDay(response.value);
+      });
+    countapi
+      .hit(
+        `pdpontren-kemenagkota.vercel.app`,
+        `bln${new Date().getMonth() + 1}`
+      )
+      .then((response) => {
+        setVisitorMonth(response.value);
+      });
+    countapi
+      .hit(`pdpontren-kemenagkota.vercel.app`, `thn${new Date().getYear()}`)
+      .then((response) => {
+        setVisitorYear(response.value);
       });
   }, []);
 
@@ -26,7 +41,7 @@ function DataSection() {
         1. Aplikasi EMIS WAJIB untuk semua Lembaga Keagamaan Islam (Pondok
         Pesantren, MDT, LPQ, SPM, PDF, PK-PPS)
       </SectionTitle>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-5 py-3">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 py-3">
         {emis.map((data) => (
           <DataItem
             key={data.title}
@@ -70,7 +85,7 @@ function DataSection() {
       <SectionTitle>
         4. Aplikasi pendukung Satuan Pendidikan SPM, PDF dan PK-PPS
       </SectionTitle>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 py-3">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 py-3">
         {verval.map((data) => (
           <DataItem
             key={data.title}
@@ -93,13 +108,11 @@ function DataSection() {
           />
         ))}
       </div>
-      <div className="mt-10 text-center w-3/4 flex flex-col justify-center mx-auto">
-        <p>
-          Pengunjung Website Hari ini {new Date().getDate()}/
-          {new Date().getMonth() + 1}/{new Date().getFullYear()}
-        </p>
-        <h1 className="text-2xl mt-2">{visitor}</h1>
-      </div>
+      <Visitor
+        visitorDay={visitorDay}
+        visitorMonth={visitorMonth}
+        visitorYear={visitorYear}
+      />
     </>
   );
 }

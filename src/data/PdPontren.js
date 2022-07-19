@@ -13,6 +13,13 @@ export const emis = [
       "https://github.com/kkafi09/pdpontren-kemenagkota/blob/main/src/images/operator-emis.png?raw=true",
     link: "https://bit.ly/Pendaftaran_Operator_EMIS_September_2021",
   },
+  {
+    title: "C. Emis Pendis Ma'had Aly",
+    description: `Emis Pendis Ma'had Aly`,
+    imgUrl:
+      "https://github.com/kkafi09/pdpontren-kemenagkota/blob/main/src/images/mahad-aly.jpeg?raw=true",
+    link: "http://emispendis.kemenag.go.id/mahadaly/login",
+  },
 ];
 
 export const bantuan = [
