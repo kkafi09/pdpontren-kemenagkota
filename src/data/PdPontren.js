@@ -16,8 +16,8 @@ export const emis = [
     deadline: "",
   },
   {
-    title: "C. Update data EMIS Semester 1 Tapel 2022/2023",
-    description: `Link update data EMIS Semester 1 Tapel 2022/2023`,
+    title: "C. EMIS Khusus Ma'had Aly",
+    description: `Link aplikasi EMIS khusus Ma'had Aly`,
     imgUrl:
       "https://github.com/kkafi09/pdpontren-kemenagkota/blob/main/src/images/mahad-aly.jpeg?raw=true",
     link: "http://emispendis.kemenag.go.id/mahadaly/login",
