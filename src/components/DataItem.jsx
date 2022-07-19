@@ -1,9 +1,20 @@
 import React from "react";
+import Deadline from "./Deadline";
 
-function DataItem({ title, imgUrl, description, link }) {
+function DataItem({ title, imgUrl, description, link, deadline }) {
   return (
     <div className="bg-white rounded-lg overflow-hidden hover:scale-105 transition-all">
       <a href={link} target="_blank" rel="noopener noreferrer">
+        {deadline !== "" && deadline !== null ? (
+          <div className="absolute bg-red-500 px-2 py-1 rounded-lg ">
+            <span className="text-white">
+              <Deadline deadline={deadline} />
+            </span>
+          </div>
+        ) : (
+          <div></div>
+        )}
+
         <img
           src={imgUrl}
           alt={title}

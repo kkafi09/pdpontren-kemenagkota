@@ -6,6 +6,7 @@ export const verval = [
     imgUrl:
       "https://raw.githubusercontent.com/kkafi09/pdpontren-kemenagkota/main/src/images/verval.png",
     link: "https://sso.data.kemdikbud.go.id/sys/login?appkey=348310F2-0262-4F5D-B7D1-41F92ECDCA93",
+    deadline: "",
   },
   {
     title: "B. Verval SP",
@@ -14,6 +15,7 @@ export const verval = [
     imgUrl:
       "https://raw.githubusercontent.com/kkafi09/pdpontren-kemenagkota/main/src/images/verval-sp.png",
     link: "https://sso.data.kemdikbud.go.id/sys/login?appkey=199538EA-4DB7-4DC5-A9BD-64E5649C20A9",
+    deadline: "",
   },
   {
     title: "C. Verval TIK",
@@ -22,6 +24,7 @@ export const verval = [
     imgUrl:
       "https://raw.githubusercontent.com/kkafi09/pdpontren-kemenagkota/main/src/images/verval-tik.png",
     link: "https://sso.data.kemdikbud.go.id/sys/login?appkey=DCDC1C5D-7489-46FD-866D-1D86579891C5",
+    deadline: "",
   },
   {
     title: "D. Bioan Paket",
@@ -29,6 +32,7 @@ export const verval = [
     imgUrl:
       "https://github.com/kkafi09/pdpontren-kemenagkota/blob/main/src/images/bioan-paket.png?raw=true",
     link: "https://bioanpaket.kemdikbud.go.id/",
+    deadline: "",
   },
   {
     title: "E. ANBK Nasional",
@@ -37,6 +41,7 @@ export const verval = [
     imgUrl:
       "https://github.com/kkafi09/pdpontren-kemenagkota/blob/main/src/images/anbk.png?raw=true",
     link: "https://anbk.kemdikbud.go.id/",
+    deadline: "",
   },
   {
     title: "F. Cek NISN",
@@ -44,5 +49,6 @@ export const verval = [
     imgUrl:
       "https://github.com/kkafi09/pdpontren-kemenagkota/blob/main/src/images/cek-nisn.png?raw=true",
     link: "https://nisn.data.kemdikbud.go.id/",
+    deadline: "",
   },
 ];

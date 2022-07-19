@@ -5,6 +5,7 @@ import { verval } from "../data/Verval";
 import DataItem from "./DataItem";
 import SectionTitle from "./SectionTitle";
 import countapi from "countapi-js";
+import Deadline from "./Deadline";
 import Visitor from "./Visitor";
 
 function DataSection() {
@@ -37,9 +38,14 @@ function DataSection() {
 
   return (
     <>
+      <div className="mt-10 bg-red-500 px-2 py-1 rounded-lg mb-0 w-5/12 mx-auto text-center">
+        <span className="text-white font-bold">
+          <Deadline deadline="December 30, 2022" />
+        </span>
+      </div>
       <SectionTitle>
         1. Aplikasi EMIS WAJIB untuk semua Lembaga Keagamaan Islam (Pondok
-        Pesantren, MDT, LPQ, SPM, PDF, PK-PPS)
+        Pesantren, MDT, LPQ, SPM, PDF, PK-PPS, Ma'had Aly)
       </SectionTitle>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 py-3">
         {emis.map((data) => (
@@ -49,6 +55,7 @@ function DataSection() {
             imgUrl={data.imgUrl}
             link={data.link}
             description={data.description}
+            deadline={data.deadline}
           />
         ))}
       </div>
@@ -64,12 +71,13 @@ function DataSection() {
             imgUrl={data.imgUrl}
             link={data.link}
             description={data.description}
+            deadline={data.deadline}
           />
         ))}
       </div>
       <SectionTitle>
         3. Aplikasi Bantuan-bantuan Lembaga Keagamaan Islam (Pondok Pesantren,
-        MDT, LPQ, SPM, PDF, PK-PPS)
+        MDT, LPQ, SPM, PDF, PK-PPS dan Ma'had Aly)
       </SectionTitle>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-5 py-3">
         {bantuan.map((data) => (
@@ -79,6 +87,7 @@ function DataSection() {
             imgUrl={data.imgUrl}
             link={data.link}
             description={data.description}
+            deadline={data.deadline}
           />
         ))}
       </div>
@@ -93,6 +102,7 @@ function DataSection() {
             imgUrl={data.imgUrl}
             link={data.link}
             description={data.description}
+            deadline={data.deadline}
           />
         ))}
       </div>
@@ -105,6 +115,7 @@ function DataSection() {
             imgUrl={data.imgUrl}
             link={data.link}
             description={data.description}
+            deadline={data.deadline}
           />
         ))}
       </div>

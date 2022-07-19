@@ -5,6 +5,7 @@ export const emis = [
     imgUrl:
       "https://github.com/kkafi09/pdpontren-kemenagkota/blob/main/src/images/emis-wajib.png?raw=true",
     link: "http://emispendis.kemenag.go.id/pdpontrenv2/Login",
+    deadline: "",
   },
   {
     title: "B. Pendaftaran dan pergantian Operator EMIS",
@@ -12,13 +13,15 @@ export const emis = [
     imgUrl:
       "https://github.com/kkafi09/pdpontren-kemenagkota/blob/main/src/images/operator-emis.png?raw=true",
     link: "https://bit.ly/Pendaftaran_Operator_EMIS_September_2021",
+    deadline: "",
   },
   {
-    title: "C. Emis Pendis Ma'had Aly",
-    description: `Emis Pendis Ma'had Aly`,
+    title: "C. Update data EMIS Semester 1 Tapel 2022/2023",
+    description: `Link update data EMIS Semester 1 Tapel 2022/2023`,
     imgUrl:
       "https://github.com/kkafi09/pdpontren-kemenagkota/blob/main/src/images/mahad-aly.jpeg?raw=true",
     link: "http://emispendis.kemenag.go.id/mahadaly/login",
+    deadline: "",
   },
 ];
 
@@ -30,6 +33,7 @@ export const bantuan = [
     imgUrl:
       "https://github.com/kkafi09/pdpontren-kemenagkota/blob/main/src/images/simba-pontren.png?raw=true",
     link: "https://ditpdpontren.kemenag.go.id/layananbantuan/login#login",
+    deadline: "",
   },
   {
     title: "B. SIKAP (Sistem Informasi Ketenagaan Pesantren)",
@@ -37,6 +41,7 @@ export const bantuan = [
     imgUrl:
       "https://github.com/kkafi09/pdpontren-kemenagkota/blob/main/src/images/sikap-pontren.png?raw=true",
     link: "https://sikap.kemenag.go.id/login",
+    deadline: "",
   },
 ];
 
@@ -47,6 +52,7 @@ export const permohonanIzin = [
     imgUrl:
       "https://github.com/kkafi09/pdpontren-kemenagkota/blob/main/src/images/sitren-pontren.png?raw=true",
     link: "https://ditpdpontren.kemenag.go.id/daftarkeberadaanpesantren/",
+    deadline: "",
   },
   {
     title: "B. SIPDAR-PQ",
@@ -55,5 +61,6 @@ export const permohonanIzin = [
     imgUrl:
       "https://github.com/kkafi09/pdpontren-kemenagkota/blob/main/src/images/sipdar-pq.png?raw=true",
     link: "https://ditpdpontren.kemenag.go.id/sipdar/index.php/register",
+    deadline: "",
   },
 ];
