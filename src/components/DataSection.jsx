@@ -68,7 +68,7 @@ function DataSection() {
         2. Aplikasi untuk permohonan Izin operasional baik BARU maupun
         Perpanjangan
       </SectionTitle>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-5 py-3">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 py-3">
         {permohonanIzin.map((data) => (
           <DataItem
             key={data.title}

@@ -16,7 +16,11 @@ function DataItem({ title, imgUrl, description, link, deadline }) {
         )}
 
         <img
-          src={imgUrl}
+          src={
+            imgUrl !== "" && imgUrl !== null
+              ? imgUrl
+              : "https://source.unsplash.com/1920x1080?alquran"
+          }
           alt={title}
           className="w-full h-36 md:h-48 object-contain p-2"
         />

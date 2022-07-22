@@ -63,4 +63,14 @@ export const permohonanIzin = [
     link: "https://ditpdpontren.kemenag.go.id/sipdar/index.php/register",
     deadline: "",
   },
+  {
+    title:
+      "C. Pendidikan Ma'had Aly, Pendidikan Diniyah Formal (PDF), Satuan Pendidikan Muadalah (SPM)",
+    description:
+      "Aplikasi Ijin operasional Pendidikan Ma'had Aly, Pendidikan Diniyah Formal (PDF), Satuan Pendidikan Muadalah (SPM)",
+    imgUrl:
+      "https://github.com/kkafi09/pdpontren-kemenagkota/blob/main/src/images/ijop-pdma.png?raw=true",
+    link: "https://ditpdpontren.kemenag.go.id/ijoppdma/",
+    deadline: "",
+  },
 ];
