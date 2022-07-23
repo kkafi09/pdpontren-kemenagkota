@@ -69,7 +69,7 @@ export const permohonanIzin = [
     description:
       "Aplikasi Ijin operasional Pendidikan Ma'had Aly, Pendidikan Diniyah Formal (PDF), Satuan Pendidikan Muadalah (SPM)",
     imgUrl:
-      "https://github.com/kkafi09/pdpontren-kemenagkota/blob/main/src/images/ijop-pdma.png?raw=true",
+      "https://github.com/kkafi09/pdpontren-kemenagkota/blob/main/src/images/ijop-pdma.jpeg?raw=true",
     link: "https://ditpdpontren.kemenag.go.id/ijoppdma/",
     deadline: "",
   },

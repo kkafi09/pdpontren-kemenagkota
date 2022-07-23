@@ -42,7 +42,7 @@ function DataSection() {
         <p className="text-center my-2">
           Update data EMIS Semester 1 Tapel 2022/2023
         </p>
-        <div className="bg-red-500 px-2 py-1 rounded-lg mb-0 w-5/12 mx-auto text-center">
+        <div className="bg-red-500 px-2 py-1 rounded-lg mb-0 w-full md:w-5/12 mx-auto text-center">
           <span className="text-gray-100 font-bold">
             <Deadline deadline="December 30, 2022" />
           </span>
