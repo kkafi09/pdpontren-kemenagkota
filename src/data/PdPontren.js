@@ -57,7 +57,7 @@ export const permohonanIzin = [
   {
     title: "B. SIPDAR-PQ",
     description:
-      "Aplikasi sistem Informasi Pelayanan Tanda Daftar Lembaga Pendidikan al-Quran",
+      "Aplikasi sistem informasi pelayanan tanda daftar lembaga pendidikan Al-Quran",
     imgUrl:
       "https://github.com/kkafi09/pdpontren-kemenagkota/blob/main/src/images/sipdar-pq.png?raw=true",
     link: "https://sipdarlpq.kemenag.go.id",
