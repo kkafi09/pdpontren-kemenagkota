@@ -60,7 +60,7 @@ export const permohonanIzin = [
       "Aplikasi sistem Informasi Pelayanan Tanda Daftar Lembaga Pendidikan al-Quran",
     imgUrl:
       "https://github.com/kkafi09/pdpontren-kemenagkota/blob/main/src/images/sipdar-pq.png?raw=true",
-    link: "https://ditpdpontren.kemenag.go.id/sipdar/index.php/register",
+    link: "https://sipdarlpq.kemenag.go.id",
     deadline: "",
   },
   {
