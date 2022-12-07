@@ -51,7 +51,7 @@ export const permohonanIzin = [
     description: "Aplikasi sistem informasi tanda keberadaan pesantren",
     imgUrl:
       "https://github.com/kkafi09/pdpontren-kemenagkota/blob/main/src/images/sitren-pontren.png?raw=true",
-    link: "https://sintren.kemenag.go.id/",
+    link: "https://sitren.kemenag.go.id/",
     deadline: "",
   },
   {
