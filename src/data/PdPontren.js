@@ -32,7 +32,7 @@ export const bantuan = [
       "Sistem Informasi Manajemen Bantuan Pendidikan Diniyah Dan Pondok Pesantren",
     imgUrl:
       "https://github.com/kkafi09/pdpontren-kemenagkota/blob/main/src/images/simba-pontren.png?raw=true",
-    link: "https://ditpdpontren.kemenag.go.id/layananbantuan/login#login",
+    link: "https://simba.kemenag.go.id/",
     deadline: "",
   },
   {
@@ -40,7 +40,7 @@ export const bantuan = [
     description: "Aplikasi tentang Sistem Informasi Ketenagaan Pesantren",
     imgUrl:
       "https://github.com/kkafi09/pdpontren-kemenagkota/blob/main/src/images/sikap-pontren.png?raw=true",
-    link: "https://sikap.kemenag.go.id/login",
+    link: "https://sikap.kemenag.go.id/",
     deadline: "",
   },
 ];
@@ -51,7 +51,7 @@ export const permohonanIzin = [
     description: "Aplikasi sistem informasi tanda keberadaan pesantren",
     imgUrl:
       "https://github.com/kkafi09/pdpontren-kemenagkota/blob/main/src/images/sitren-pontren.png?raw=true",
-    link: "https://ditpdpontren.kemenag.go.id/daftarkeberadaanpesantren/",
+    link: "https://sintren.kemenag.go.id/",
     deadline: "",
   },
   {
