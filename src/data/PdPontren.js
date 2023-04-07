@@ -24,8 +24,8 @@ export const emis = [
     deadline: "",
   },
   {
-    title: "D. EMIS PD-PONTREN V4",
-    description: "Aplikasi EMIS PD PONTREN Versi 4",
+    title: "D. EMIS PD-PONTREN Versi 4",
+    description: "Aplikasi EMIS PD PONTREN Versi 4. Untuk satuan pendidikan (SPM, PDF, dan PK-PPS)",
     imgUrl:
       "https://github.com/kkafi09/pdpontren-kemenagkota/blob/main/src/images/emis-wajib.png?raw=true",
     link: "https://emis.kemenag.go.id/",
