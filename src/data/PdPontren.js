@@ -23,6 +23,14 @@ export const emis = [
     link: "http://emispendis.kemenag.go.id/mahadaly/login",
     deadline: "",
   },
+  {
+    title: "D. EMIS PD-PONTREN V4",
+    description: "Aplikasi EMIS PD PONTREN Versi 4",
+    imgUrl:
+      "https://github.com/kkafi09/pdpontren-kemenagkota/blob/main/src/images/emis-wajib.png?raw=true",
+    link: "https://emis.kemenag.go.id/",
+    deadline: "",
+  },
 ];
 
 export const bantuan = [
@@ -70,7 +78,7 @@ export const permohonanIzin = [
       "Aplikasi Ijin operasional Pendidikan Ma'had Aly, Pendidikan Diniyah Formal (PDF), Satuan Pendidikan Muadalah (SPM)",
     imgUrl:
       "https://github.com/kkafi09/pdpontren-kemenagkota/blob/main/src/images/ijop-pdma.jpeg?raw=true",
-    link: "https://ditpdpontren.kemenag.go.id/ijoppdma/",
+    link: "https://ijoppdma.kemenag.go.id/",
     deadline: "",
   },
 ];
